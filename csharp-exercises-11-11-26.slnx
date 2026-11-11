@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ExPrimeNumber/ExPrimeNumber.csproj" />
+  <Project Path="functions/functions.csproj" />
+</Solution>
