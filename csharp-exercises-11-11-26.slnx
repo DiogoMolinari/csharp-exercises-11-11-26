@@ -1,4 +1,9 @@
 <Solution>
+  <Project Path="arrays/arrays.csproj" />
+  <Project Path="Ex1PrintArrays/Ex1PrintArrays.csproj" />
+  <Project Path="Ex2EvenOddArrays/Ex2EvenOddArrays.csproj" />
+  <Project Path="Ex3FibonacciArray/Ex3FibonacciArray.csproj" />
+  <Project Path="Ex4AscConvertionArray/Ex4AscConvertionArray.csproj" />
   <Project Path="ExPrimeNumber/ExPrimeNumber.csproj" />
   <Project Path="functions/functions.csproj" />
 </Solution>
