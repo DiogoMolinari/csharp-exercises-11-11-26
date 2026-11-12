@@ -9,7 +9,7 @@ void PopulateArray(char[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine("Informe a letra desejada: ");
+        Console.Write("Informe a letra desejada: ");
         array[i] = char.Parse(Console.ReadLine());
     }
 }
@@ -32,7 +32,7 @@ void ShowArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"[{array[i]}] ");
+        Console.Write($"[{array[i].ToString()}] ");
     }
     Console.WriteLine("\n");
 }
@@ -41,7 +41,7 @@ PopulateArray(array1);
 string[] temp = new string[array1.Length];
 for (int i = 0; i < array1.Length; i++)
 {
-    temp[i] = array1.ToString();
+    temp[i] = array1[i].ToString();
 }
 
 ShowArray(temp);
