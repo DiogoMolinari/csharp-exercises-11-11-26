@@ -6,7 +6,5 @@
 
 **Exercício 3:** Faça um programa que leia 1 número inteiro. Usando este número, crie um vetor com essa quantidade de posições. Dentro deste vetor, deve conter os itens da sequência Fibonacci até a posição formada.
 
-**Exercício 4:** Faça um programa que cria um vetor de string com 10 posições. Copie para um novo vetor cada uma das posições adicionando na próxima o valor da tabela ASC daquele caractere.
-
-
+**Exercício 4:** Faça um programa que cria um vetor de char com 10 posições. Copie para um novo vetor cada uma das posições adicionando na próxima o valor da tabela ASC daquele caractere.
 
