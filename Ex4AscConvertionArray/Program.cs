@@ -1,7 +1,5 @@
 ﻿/*Exercício 4: Faça um programa que cria um vetor de char com 10 posições. Copie para
 um novo vetor cada uma das posições adicionando na próxima o valor da tabela ASC daquele caractere.*/
-using System.Net.Http.Headers;
-using System.Xml.Serialization;
 
 int size = 10;
 char[] array1 = new char[size];
@@ -25,7 +23,7 @@ void CreateAsciiArray()
 {
     for (int i = 0; i < array2.Length; i+=2)
     {
-        array2[i/2] = array1[i].ToString();
+        array2[i] = array1[i/2].ToString();
         array2[i+1] = ConvertAscii(array1[i/2]).ToString();
     }
 }
